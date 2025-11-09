@@ -1,4 +1,4 @@
-# RAG-vs-Fine-Tuning-vs-Embeddings :rnrunnable project
+# RAG-vs-Fine-Tuning-vs-Embeddings :Project
 
 Here’s a complete, end-to-end GitHub-ready project that demonstrates a hybrid stack using all three levers—**RAG**, **Fine-Tuning**, and **Embeddings**—with a working demo UI, evaluation harness, and Docker support.
 
