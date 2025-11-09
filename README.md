@@ -1,4 +1,5 @@
-# RAG-vs-Fine-Tuning-vs-Embeddings
+# RAG-vs-Fine-Tuning-vs-Embeddings 
+#This is a complete, runnable project. 
 Here’s a complete, end-to-end GitHub-ready project that demonstrates a hybrid stack using all three levers—**RAG**, **Fine-Tuning**, and **Embeddings**—with a working demo UI, evaluation harness, and Docker support.
 
 ### Project overview
@@ -802,7 +803,6 @@ if __name__ == "__main__":
     main()
 ```
 
----
 
 ### How to demo (scripted)
 1) Ingest and index
@@ -831,10 +831,4 @@ python scripts/finetune/train_lora.py --dataset data/finetune/train.jsonl --outp
 5) Streamlit UI
 ```
 streamlit run frontend/streamlit_app.py
-```
 
-This is a complete, runnable project. Copy these files into a new GitHub repo (or I can compress them here if you prefer a single archive structure), run the quick-start commands, and you’ll have a live RAG app with citations, an evaluation harness, and an optional fine-tuning path.
-
----
-
-Would you like me to add a GitHub Actions CI workflow (lint, tests, build, and a smoke test against the API) to round this out for continuous integration?
